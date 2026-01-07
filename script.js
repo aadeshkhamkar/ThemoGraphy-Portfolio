@@ -1,15 +1,4 @@
 
-// document.getElementById('contactform').addEventListener('submit', function(event) {
-//     event.preventDefault(); // Prevent the form from submitting the traditional way
-
-//     // Hide the form
-//     document.getElementById('contactform').style.display = 'none';
-
-//     // Show the thank you message
-//     document.getElementById('thankYouMessage').style.display = 'block';
-// });
-
-// back Speed
 
 // Dark theme
 document.addEventListener("DOMContentLoaded", function (event) {
@@ -196,24 +185,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 body: raw,
                 redirect: 'follow'
             };
-            // document.getElementsByClassName("submit-btn")[0].classList.add('show-loading');
-            // fetch("https://contact-form.devchapter-work.workers.dev", requestOptions)
-            //     .then(response => response.text())
-            //     .then(result => {
-            //         document.getElementsByClassName("submit-btn")[0].classList.remove('show-loading')
-            //         document.getElementsByClassName('success-submit-message')[0].classList.add('active')
-            //         document.contactForm.reset();
-            //         setTimeout(function () {
-            //             document.getElementsByClassName('success-submit-message')[0].classList.remove('active')
-            //         }, 4000)
-            //     })
-            //     .catch(error => {
-            //         document.getElementsByClassName("submit-btn")[0].classList.remove('show-loading')
-            //         document.getElementsByClassName('fail-submit-message')[0].classList.add('active');
-            //         setTimeout(function () {
-            //             document.getElementsByClassName('fail-submit-message')[0].classList.remove('active')
-            //         }, 4000)
-            //     });
+           
         }
     })
     document.contactForm.addEventListener('change', function (e) {
